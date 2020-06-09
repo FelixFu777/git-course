@@ -1,0 +1,9 @@
+工作区（本地文件夹） 
+
+  ==git add ./==> 
+
+暂存区（stage） 
+
+  ==git commit -m 'something update'==> 
+
+分支

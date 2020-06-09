@@ -8,7 +8,7 @@ git add ./
 git commit -m 'something update'
   把文件提交到仓库
   -m 本次提交的说明
-  
+
 git log
   q：退出git log
 git log --pretty=oneline
@@ -23,3 +23,5 @@ git reset --hard d2f82f53f52a90f162b9bb0f4e4a7f8d39b29758
 git reflog
   查看命令历史
   后悔药
+git diff HEAD -- readme.txt
+  查看工作区和版本库里最新代码的区别
