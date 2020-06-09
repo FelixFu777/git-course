@@ -1,0 +1,2 @@
+git rm test.txt
+  命令git rm用于删除一个文件
