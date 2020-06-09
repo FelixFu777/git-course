@@ -5,23 +5,38 @@ git config --global user.email "email@example.com"
 
 git add ./
   把当前文件夹的改动添加到git仓库
+
 git commit -m 'something update'
   把文件提交到仓库
   -m 本次提交的说明
 
 git log
   q：退出git log
+
 git log --pretty=oneline
   格式化为一行
+
 git reset --hard HEAD^
   回退到上一次commit
   HEAD^^: 上上次
   HEAD~100： 100次
+
 git reset --hard d2f82f53f52a90f162b9bb0f4e4a7f8d39b29758
   commit id 可以不写全，git可以自动去找
   回退到指定commit
+
 git reflog
   查看命令历史
   后悔药
+
 git diff HEAD -- readme.txt
   查看工作区和版本库里最新代码的区别
+
+git status
+  查看状态
+
+git checkout -- readme.txt
+  让这个文件回到最近一次git commit或git add时的状态
+
+git reset HEAD readme.txt
+  暂存区的修改撤销掉（unstage），重新放回工作区
