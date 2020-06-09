@@ -1,0 +1,10 @@
+创建版本库（不能包含中文）：{
+  1.创建一个空目录
+    $ mkdir learngit
+    $ cd learngit
+    $ pwd
+    /Users/michael/learngit
+  2.git init
+  3.查看.git目录
+    ls -ah
+}

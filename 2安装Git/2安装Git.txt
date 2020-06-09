@@ -1,0 +1,15 @@
+安装：{
+  Linux：{
+    1.输入git，看看系统有没有安装Git
+      $ git
+      The program 'git' is currently not installed. You can install it by typing:
+      sudo apt-get install git
+    2.如果没有安装，显示如上提示，直接安装
+      sudo apt-get install git
+  }
+  Windows：{
+    1.可以从Git官网直接下载安装程序
+    2.然后按默认选项安装即可
+    3.安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功
+  }
+}

@@ -1,0 +1,11 @@
+git config --global user.name "Your Name"
+  配置这台机器上所有的git仓库的用户名
+git config --global user.email "email@example.com"
+  配置这台机器上所有的git仓库的邮箱
+
+git add ./
+  把当前文件夹的改动添加到git仓库
+git commit -m 'something update'
+  把文件提交到仓库
+  -m 本次提交的说明
+
