@@ -5,4 +5,3 @@
   git commit -m '解决冲突'
 3.切换到master分支
   git switch master
-4.Creating a new branch is quick & simple.
