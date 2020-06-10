@@ -121,3 +121,6 @@ git checkout -b dev origin/dev
 
 git branch --set-upstream-to=origin/dev dev
   指定本地dev分支与远程origin/dev分支的链接
+
+git branch -a\git branch -r
+  查看本地和远端所有分支\查看远端分支
