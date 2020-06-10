@@ -55,3 +55,21 @@ git push origin master
 
 git clone git@github.com:FelixFu777/git-course.git
   克隆远端项目到本地
+
+git branch dev
+  创建一个分支
+  
+git checkout dev
+  切换到分支
+
+git checkout -b dev
+  合并写法
+
+git branch
+  查看分支
+
+git merge dev
+  合并同步到dev
+
+git branch -d dev
+  删除dev分支

@@ -6,4 +6,12 @@
   git checkout -b dev
 4.查看分支
   git branch
-  
+5.提交 dev 分支的代码
+  git add ./
+  git commit -m 'something update'
+6.切回分支master
+  git checkout master
+7.合并同步到dev
+  git merge dev
+8.删除dev分支
+  git branch -d dev
