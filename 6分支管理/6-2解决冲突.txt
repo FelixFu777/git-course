@@ -5,3 +5,4 @@
   git commit -m '解决冲突'
 3.切换到master分支
   git switch master
+master的修改
