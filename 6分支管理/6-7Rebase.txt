@@ -1,0 +1,4 @@
+1.删除分支feature-vulcan
+  git branch -d feature-vulcan
+2.销毁失败。Git友情提醒，feature-vulcan分支还没有被合并，如果删除，将丢失掉修改，如果要强行删除，需要使用大写的-D参数
+  git branch -D feature-vulcan

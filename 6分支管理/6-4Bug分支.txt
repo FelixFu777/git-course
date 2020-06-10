@@ -1,0 +1,14 @@
+1.Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+  git stash(暂存当前修改)
+2.恢复stash内容到工作区
+  git stash apply
+3.删除stash内容
+  git stash drop
+4.恢复并删除
+  git stash pop
+5.查看stash
+  git stash list
+6.恢复指定stash
+  git stash apply stash@{0}
+7.删除指定stash
+  git stash drop stash@{0}

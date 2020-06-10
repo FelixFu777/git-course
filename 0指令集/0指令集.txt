@@ -73,3 +73,51 @@ git merge dev
 
 git branch -d dev
   删除dev分支
+
+git branch -D feature-vulcan
+  强行删除还没合并的分支
+
+git switch -c feature1
+  创建分支
+
+git switch master
+  切换分支
+
+git log --graph --pretty=oneline --abbrev-commit
+  查看分支合并情况
+
+git merge --no-ff -m "merge with no-ff" dev
+  合并dev分支，不采用fast forward模式，并写上备注
+
+git stash
+  Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+
+git stash apply
+  恢复stash内容到工作区
+
+git stash drop
+  删除stash内容
+
+git stash pop
+  恢复并删除
+
+git stash list
+  查看stash
+
+git stash apply stash@{0}
+  恢复指定stash
+
+git stash drop stash@{0}
+  删除指定stash
+
+git remote\git remote -v
+  查看远程库信息
+
+git push origin master
+  推送分支
+
+git checkout -b dev origin/dev
+  创建并关联分支
+
+git branch --set-upstream-to=origin/dev dev
+  指定本地dev分支与远程origin/dev分支的链接
